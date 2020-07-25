@@ -18,10 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'mandi.jpg',
-  paragraphOne:
-    'I am a full stack developer with a mission to make a difference in the world through programming. With an extensive background in education, translation, and client services, I am equipped to take on all the exciting challenges programming has to offer!',
+  paragraphOne: '"The secret of getting ahead is getting started." ~ Mark Twain',
   paragraphTwo:
-    'As a dedicated Christian, I want to share the love of God with others as I help to make the world an amazing place to be.',
+    'I am a full stack developer determined to make a difference in the world through programming. With an extensive background in education, translation, and client services, I am equipped to take on all the exciting challenges programming has to offer!',
   paragraphThree:
     'I am committed to excellence, encouraging others, and finding new and exciting ways to be a catalyst for positive change.',
   resume: 'https://www.linkedin.com/in/mandihaase/', // if no resume, the button will not show up
@@ -72,11 +71,6 @@ export const footerData = {
       id: nanoid(),
       name: 'twitter',
       url: 'https://twitter.com/mandi_haase',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: 'https://codepen.io/haase1020',
     },
     {
       id: nanoid(),
