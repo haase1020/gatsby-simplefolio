@@ -23,7 +23,7 @@ export const aboutData = {
     'I am a full stack developer determined to make a difference in the world through programming. With an extensive background in education, translation, and client services, I am equipped to take on all the exciting challenges programming has to offer!',
   paragraphThree:
     'I am committed to excellence, encouraging others, and finding new and exciting ways to be a catalyst for positive change.',
-  resume: 'https://www.linkedin.com/in/mandihaase/', // if no resume, the button will not show up
+  resume: 'https://www.linkedin.com/in/mandihaase/',
 };
 
 // PROJECTS DATA
@@ -32,29 +32,30 @@ export const projectsData = [
     id: nanoid(),
     img: 'allay.jpg',
     title: 'Allay',
-    info: 'A company and interview review website for programming students',
+    info:
+      'A company and interview review website for programming students created with React, Redux, NodeJS, and PostgreSQL',
     info2: '',
     url: 'https://labs21-allay-fe.herokuapp.com/',
-    repo: 'https://github.com/Lambda-School-Labs/allay-fe', // if no repo, the button will not show up
+    repo: 'https://github.com/Lambda-School-Labs/allay-fe',
   },
   {
     id: nanoid(),
     img: 'developme.jpg',
     title: 'Develop Me',
-    info: 'A social networking platform for programmers',
+    info: 'A social networking platform for programmers using React, Redux, NodeJS, and MongoDB ',
     info2: '',
-    url: 'https://infinite-temple-50202.herokuapp.com/',
-    repo: '', // if no repo, the button will not show up
+    url: 'http://www.developme.work/',
+    repo: 'https://github.com/haase1020/devconnector',
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'money.jpg',
+    title: 'Expense Tracker',
+    info: 'A simple expense tracking app made with React using Context API and a NodeJS back end',
+    info2: '',
+    url: 'https://radiant-brook-32200.herokuapp.com/',
+    repo: 'https://github.com/haase1020/expense-tracker-react',
+  },
 ];
 
 // CONTACT DATA
