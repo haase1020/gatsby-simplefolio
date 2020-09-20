@@ -23,7 +23,6 @@ export const aboutData = {
     'I am a full stack developer determined to make a difference in the world through programming. With an extensive background in education, translation, and client services, I am equipped to take on all the exciting challenges programming has to offer!',
   paragraphThree:
     'I am committed to excellence, encouraging others, and finding new and exciting ways to be a catalyst for positive change.',
-  resume: 'https://www.linkedin.com/in/mandihaase/',
 };
 
 // PROJECTS DATA
@@ -55,6 +54,25 @@ export const projectsData = [
     info2: '',
     url: 'https://radiant-brook-32200.herokuapp.com/',
     repo: 'https://github.com/haase1020/expense-tracker-react',
+  },
+  {
+    id: nanoid(),
+    img: 'life.jpg',
+    title: 'The Game of Life',
+    info:
+      'A vanilla JavaScript App visually displaying cellular automation devised by John Horton Conway',
+    info2: '',
+    url: 'https://gameoflifehaase.netlify.app',
+    repo: 'https://github.com/haase1020/game-of-life-javascript',
+  },
+  {
+    id: nanoid(),
+    img: 'quote.jpg',
+    title: 'Quotetastic',
+    info: 'A vanilla JavaScript App that provides inspiring quotes that you can tweet!',
+    info2: '',
+    url: 'https://quotetastic.netlify.app',
+    repo: 'https://github.com/haase1020/quote-alot',
   },
 ];
 
