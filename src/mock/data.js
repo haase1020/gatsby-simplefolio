@@ -18,11 +18,11 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'mandi.jpg',
-  paragraphOne: '"The secret of getting ahead is getting started." ~ Mark Twain',
+  paragraphOne: '"The secret of getting ahead is getting started." 😊 Mark Twain',
   paragraphTwo:
-    'I am a full stack developer determined to make a difference in the world through programming. With an extensive background in education, translation, and client services, I am equipped to take on all the exciting challenges programming has to offer!',
+    'I am a full stack developer determined to make a difference in the world 🌎 through programming. With an extensive background in education, translation, and client services, I am equipped to take on all the exciting challenges programming has to offer!',
   paragraphThree:
-    'I am committed to excellence, encouraging others, and finding new and exciting ways to be a catalyst for positive change.',
+    'I am committed to excellence, encouraging others, and finding new and exciting ways to be a catalyst for positive change ⭐⭐.',
 };
 
 // PROJECTS DATA
@@ -73,6 +73,15 @@ export const projectsData = [
     info2: '',
     url: 'https://quotetastic.netlify.app',
     repo: 'https://github.com/haase1020/quote-alot',
+  },
+  {
+    id: nanoid(),
+    img: 'funny.jpg',
+    title: 'Portfolio Website',
+    info: 'A vanilla JavaScript App shows my lighter side',
+    info2: '',
+    url: 'https://www.mandicoding.com/',
+    repo: 'https://github.com/haase1020/light-dark',
   },
 ];
 
