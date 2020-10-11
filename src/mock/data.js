@@ -83,6 +83,15 @@ export const projectsData = [
     url: 'https://www.mandicoding.com/',
     repo: 'https://github.com/haase1020/light-dark',
   },
+  {
+    id: nanoid(),
+    img: 'time.jpg',
+    title: 'Countdown',
+    info: 'A vanilla JavaScript App for counting down various items',
+    info2: '',
+    url: 'https://countdown-fun.netlify.app/',
+    repo: 'https://github.com/haase1020/countdown',
+  },
 ];
 
 // CONTACT DATA
